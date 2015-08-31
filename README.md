@@ -8,7 +8,7 @@ Provided that you have a default access_log file, run this script on the command
 ./badboyip.pl --start 02:26 --end 11:00 --file node0_access_log
 
 54.xxx.xxx.xx          6420       
-24.xxx.xxx.xx        1720       
+24.xxx.xxx.xx          1720       
 192.xxx.xx.x           1028       
 173.xxx.xx.xxx          640        
 127.xxx.xx.xx           633        
