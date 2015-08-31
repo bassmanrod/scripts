@@ -24,4 +24,8 @@ Q: Will you be adding more stuff to the script?
 
 A: Yes, I will be adding more and more goodies.
 
+Q: Will you entertain enhancement requests?
+
+A Abso-freakin-lutely!
+
 
