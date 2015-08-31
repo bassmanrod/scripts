@@ -18,7 +18,7 @@ Q: Can I incorporate this script on the command line and run it remotely?
 
 A Yes, provided that you have your SSH Keys correctly installed:
 
-Example: for x in {2,3,6,7}; do ssh rod@192.168.0.$x "hostname;perl - "<./badboyip.pl --start 10:00 --end 11:00 --file /var/log/httpd/access_log;done
+    Example: for x in {2,3,6,7}; do ssh rod@192.168.0.$x "hostname;perl - "<./badboyip.pl --start 10:00 --end 11:00        --file /var/log/httpd/access_log;done
 
 Q: Will you be adding more stuff to the script?
 
