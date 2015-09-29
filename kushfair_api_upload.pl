@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 #use strict;
 $main::kushfair_url = 'http://qa.kushfair.com:80';
-$main::user_oauth2_key = 'CUVDGRSHEEQKA7LH';
+
 
 use JSON::XS;
 use Data::Dumper; 
