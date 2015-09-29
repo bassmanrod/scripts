@@ -2,7 +2,6 @@
 use strict;
 
 $main::kushfair_url = 'http://qa.kushfair.com:80';
-$main::user_oauth2_key = 'CUVDGRSHEEQKA7LH';
 
 use JSON::XS;
 use Data::Dumper;
@@ -20,31 +19,14 @@ $ref{'parameter'}{'inventory'}[0]{'remaining_quantity'} = 500;
 $ref{'parameter'}{'inventory'}[0]{'strain'} = 'BigBroStrainTest';
 $ref{'parameter'}{'inventory'}[0]{'usable_weight'} = 50;
 $ref{'parameter'}{'inventory'}[0]{'wet'} = 1;	
-#$ref{'parameter'}{'inventory'}[0]{'description'} = hhh;	
-#$ref{'parameter'}{'inventory'}[0]{'price'} = $price;
-#$ref{'parameter'}{'inventory'}[0]{'cost_per_unit'} = $cost;
 $ref{'parameter'}{'inventory'}[0]{'grade'} = 'premo';
-#$ref{'parameter'}{'inventory'}[0]{'pricepoint'} = \@pp;
-#$ref{'parameter'}{'inventory'}[0]{'action'} = 'upload';
 $ref{'action'} = 'upload';
 $ref{'url'} = '/api/v1/inventory/upload';
 $ref{'timeout'} = 45;
-$ref{'oauth2_key'} = 'CUVDGRSHEEQKA7LH';
+$ref{'oauth2_key'} = 'xxxxxxxxxx';
 
 my $a = kushfair_jsonsendrecv(\%ref);
 print Dumper($a);
-
-
-# some of these fields can be blank. important ones are
-# type
-# id
-# productname
-# remainingquantity
-
-# the url key => value needs to be concatenated with "http://qa.kushfair.com";
-# i just handle it as a global variable 
-# oauth2_key, is the respective key of the user your testing with
-# its in the tokes.txt file
 
 sub kushfair_jsonsendrecv
 {
