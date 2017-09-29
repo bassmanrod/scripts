@@ -17,7 +17,7 @@ sub usage
   exit;
 }
 
-my @out = `sed -n \'/2015:$start_time/,/2015:$end_time/p\' $logfile`; 
+my @out = `sed -n \'/2017:$start_time/,/2017:$end_time/p\' $logfile`; 
 
 if (!open $fh, '<', "$logfile")
     {
