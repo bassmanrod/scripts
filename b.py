@@ -23,12 +23,12 @@ receipthandle = (response['Messages'][0]['ReceiptHandle'])
 
 message = json.loads(response['Messages'][0]['Body'])
 
-shit = json.loads(message['Message'])
+stuff = json.loads(message['Message'])
 
-a = shit['bounce']
-b = shit['mail']
-c = shit['mail']['headers'][0]['value']
-d = shit['mail']['headers']
+a = stuff['bounce']
+b = stuff['mail']
+c = stuff['mail']['headers'][0]['value']
+d = stuff['mail']['headers']
 
 
 timestamp = (a['timestamp'])
