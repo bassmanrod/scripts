@@ -26,6 +26,6 @@ A: Yes, I will be adding more and more goodies.
 
 Q: Will you entertain enhancement requests?
 
-A Abso-freakin-lutely!
+A Absolutely!
 
 
